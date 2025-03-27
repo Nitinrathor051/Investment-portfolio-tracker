@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    background-color: #ddd;
+  }
+  
+  .portfolio-summary {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #add-investment-form {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #add-investment-form input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #add-investment-form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-investment-form button:hover {
+    background-color: #218838;
+  }
+  
+  .portfolio-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .portfolio-list th, .portfolio-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .portfolio-list th {
+    background-color: #f4f4f9;
+  }
+  
+  .portfolio-list button {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .portfolio-list .update-btn {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .portfolio-list .remove-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .portfolio-list button:hover {
+    opacity: 0.9;
+  }
+  
+  .chart-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
+  
